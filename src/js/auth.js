@@ -1,4 +1,6 @@
 
+// Tekoälyä käytetty vähän, oli ongelmia saada kirjautuminen toimimaan kunnolla.
+
 // Kommunikointi backendin kanssa, kirjautumispyyntö ja rekisteröityminen
 const API_LOGIN = "http://127.0.0.1:3000/api/users/login";
 const API_REGISTER = "http://127.0.0.1:3000/api/users";

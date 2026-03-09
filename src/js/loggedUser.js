@@ -1,4 +1,6 @@
 
+// tekoälyä käytetty
+
 // Ottaa getMe funktion users.js
 import { getMe } from "./users.js";
 
@@ -21,7 +23,7 @@ const updateUserName = async () => {
   }
   // backendistä käyttäjän tiedot
   const user = await getMe();
-  
+
   if (user && !user.error) {
     nameElem.textContent = user.username;
   } else {
