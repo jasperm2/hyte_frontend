@@ -8,6 +8,7 @@ const usernameSpan = document.querySelector(".username");
 const token = localStorage.getItem("token");
 const username = localStorage.getItem("name");
 
+
 if (token) {
 
   // käyttäjä kirjautunut

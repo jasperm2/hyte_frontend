@@ -1,10 +1,10 @@
 /**
- * Fetches JSON data from APIs
+ * Ottaa JSON dataa APILTA
  *
  * @param {string} url - api endpoint url
- * @param {Object} options - request options
+ * @param {Object} options - pyyntö options
  *
- * @returns {Object} response json data
+ * @returns {Object} response
  */
 const fetchData = async (url, options = {}) => {
   try {
@@ -14,7 +14,7 @@ const fetchData = async (url, options = {}) => {
       const errorData = await response.json();
       return { error: errorData.message || 'An error occurred' };
     }
-    return await response.json(); // Return successful response data
+    return await response.json(); // palauttaa response datan
   } catch (error) {
     console.error('fetchData() error:', error.message);
     return { error: error.message };

@@ -1,3 +1,5 @@
+/*
+
 import { fetchData } from './fetch.js';
 
 const diaryContainer = document.querySelector('.diary-card-area');
@@ -77,3 +79,6 @@ const getEntries = async (event) => {
 };
 
 export { getEntries };
+
+
+*/
