@@ -11,10 +11,12 @@ export default defineConfig({
         home: resolve(__dirname, 'index.html'),
         bmi: resolve(__dirname, 'bmi.html'),
         viikoteh: resolve(__dirname, 'viikkotehtavat.html'),
+        login: resolve(__dirname, 'login.html'),      
+        diary: resolve(__dirname, 'paivakirja.html'),
       },
     },
   },
   // Public base path could be set here too:
-  //base: '/~ullamu/hyte/',
+  //base: '/~jasperm/hyte/',
   base: './',
 });
