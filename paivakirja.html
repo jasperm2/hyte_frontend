@@ -25,7 +25,7 @@
 
     <nav>
       <ul>
-        <li><a href="#" id="logo">HyteGym</a></li>
+        <li><a href="#" id="logo">MedCheck</a></li>
         <li>
           <a href="index.html" class="navlink">Koti</a>
         </li>
@@ -42,58 +42,35 @@
       </div>
     </nav>
 
-    <main>
-      <h2>Tänne päiväkirjahaut</h2>
-      <button class="get_entries">Hae päiväkirjamerkinnät</button>
 
-      <button id="addEntryBtn">Add diary entry</button>
+    <div class="diary-container">
 
-    <form id="entryForm" style="display:none;">
-      <input type="date" id="entry_date" required>
+      <button id="addEntryBtn">+ Uusi merkintä</button>
 
-      <input type="text" id="mood" placeholder="Mood">
+        <form id="entryForm" style="display:none">
 
-      <input type="number" id="weight" placeholder="Weight">
+        <input type="date" id="entry_date" required>
 
-      <input type="number" id="sleep_hours" placeholder="Sleep hours">
+        <input type="text" id="mood" placeholder="Mieliala">
 
-      <textarea id="notes" placeholder="Notes"></textarea>
+        <input type="number" id="weight" placeholder="Paino">
 
-      <button type="submit">Save entry</button>
-    </form>
+        <input type="number" id="sleep_hours" placeholder="Uni (h)">
 
-    <div id="entriesContainer"></div>
+        <textarea id="notes" placeholder="Muistiinpanot"></textarea>
 
-    <!-- Flexbox pohja johon kortit luodaan -->
-      <section class="diary-card-area">
-        <div class="card">
-          <h2>Otsikko</h2>
-          <p>Teksti</p>
-        </div>
-        <div class="card">
-          <h2>Otsikko</h2>
-          <p>Teksti</p>
-        </div>
-        <div class="card">
-          <h2>Otsikko</h2>
-          <p>Teksti</p>
-        </div>
-        <div class="card">
-          <h2>Otsikko</h2>
-          <p>Teksti</p>
-        </div>
-      </section>
+        <button type="submit">Tallenna</button>
 
-      <dialog class="diary_dialog">
-        <h2>Tässä on dialogi</h2>
-        <p>Tänne voi avata ja muokata tietoa vaikka formissa</p>
-        <div class="diary_id">ID</div>
-        <button autofocus>Close</button>
-    </dialog>
+        </form>
+
+      <div id="entriesContainer" class="diary-card-area"></div>
+
+    </div>
+
 
     </main>
     <footer>
-      <p>Copyright, Meitsi</p>
+      <p>Copyright, Jasper Mustasilta</p>
     </footer>
 
   </body>
