@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.0 on win32)" generated="2026-03-17T11:59:58.344690" rpa="false" schemaversion="5">
+<suite id="s1" name="Browser Demo" source="C:\Users\zipul\Desktop\hyte_frontend\tests\browser_demo.robot">
+<test id="s1-t1" name="Oman sivun kirjautumistesti" line="6">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-03-17T11:59:59.120209" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\zipul\\Desktop\\hyte_frontend\\tests\\browser\\traces\\temp\\974d48f8-3901-4b3a-b614-8f85d8ebcf0a"}</msg>
+<msg time="2026-03-17T11:59:59.174113" level="INFO">Starting Browser process C:\Users\zipul\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:58609</msg>
+<msg time="2026-03-17T12:00:02.804292" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\zipul\\Desktop\\hyte_frontend\\tests\\browser\\traces\\temp\\974d48f8-3901-4b3a-b614-8f85d8ebcf0a"}</msg>
+<arg>chromium</arg>
+<arg>headless=No</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-03-17T11:59:59.118296" elapsed="3.686483"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-03-17T12:00:03.910097" level="INFO">Successfully initialized new page object and opened url: http://localhost:5173/login.html</msg>
+<msg time="2026-03-17T12:00:03.910258" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>http://localhost:5173/login.html</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-03-17T12:00:02.844752" elapsed="1.065801"/>
+</kw>
+<kw name="Get Title" owner="Browser">
+<msg time="2026-03-17T12:00:03.982263" level="INFO">Title: 'MedCheck'</msg>
+<arg>==</arg>
+<arg>MedCheck</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the title of the current page.</doc>
+<status status="PASS" start="2026-03-17T12:00:03.911363" elapsed="0.071164"/>
+</kw>
+<kw name="Type Text" owner="Browser">
+<msg time="2026-03-17T12:00:03.985693" level="INFO">Types the text 'matti123' in the given field.</msg>
+<arg>[id="loginUsername"]</arg>
+<arg>${Username}</arg>
+<arg>delay=0.1 s</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T12:00:03.983277" elapsed="1.002365"/>
+</kw>
+<kw name="Type Secret" owner="Browser">
+<arg>[id="loginPassword"]</arg>
+<arg>$Password</arg>
+<arg>delay=0.1 s</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given secret from ``variable_name`` into the text field
+found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T12:00:04.986944" elapsed="0.975769"/>
+</kw>
+<kw name="Click With Options" owner="Browser">
+<msg time="2026-03-17T12:00:05.965234" level="INFO">Clicks the element '[id="ksis"]'.</msg>
+<arg>[id="ksis"]</arg>
+<arg>delay=2 s</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T12:00:05.963698" elapsed="2.087572"/>
+</kw>
+<status status="PASS" start="2026-03-17T11:59:59.116599" elapsed="8.936535"/>
+</test>
+<status status="PASS" start="2026-03-17T11:59:58.348532" elapsed="9.718336"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Browser Demo" id="s1" pass="1" fail="0" skip="0">Browser Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

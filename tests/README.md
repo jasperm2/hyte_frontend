@@ -6,7 +6,22 @@ Browser: 19.12.5
 requests: 2.32.5
 CryptoLibrary: 0.4.2)
 
+cd tests, .venv\Scripts\activate
+
 Tehtävä 2:
+
+Kirjautumistesti omalla verkkosivulle tehty ja kaikki toimii hyvin.
+
+==============================================================================
+Browser Demo
+==============================================================================
+Oman sivun kirjautumistesti                                           | PASS |
+------------------------------------------------------------------------------
+Browser Demo                                                          | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+
+robot browser_demo.robot
 
 Tehtävä 3:
 
