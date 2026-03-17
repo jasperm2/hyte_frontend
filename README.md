@@ -15,6 +15,16 @@ Käyttöliittymä on suunniteltu responsiiviseksi, joten sovellusta voi käyttä
 <img width="523" height="230" alt="image" src="https://github.com/user-attachments/assets/c846ddbe-9161-402e-8f9b-6d53c564e49c" />
 <img width="618" height="734" alt="image" src="https://github.com/user-attachments/assets/c8cc76f7-6b31-4332-a9cb-db065c09c190" />
 <img width="443" height="638" alt="image" src="https://github.com/user-attachments/assets/c78f0b39-0d85-4b34-a990-f8197e2f579f" />
+<img width="1901" height="906" alt="image" src="https://github.com/user-attachments/assets/dbae9387-b434-49eb-bea7-dbd2d4135131" />
+<img width="1912" height="967" alt="image" src="https://github.com/user-attachments/assets/5bc83f82-05e6-4c3f-8d96-8354fe6dd890" />
+<img width="1917" height="962" alt="image" src="https://github.com/user-attachments/assets/d845753a-0ed5-4bc6-8c3f-8ddf0fb6b25a" />
+<img width="1915" height="957" alt="image" src="https://github.com/user-attachments/assets/8144c05c-915c-43eb-916a-d8678ef9e2c5" />
+<img width="1915" height="957" alt="image" src="https://github.com/user-attachments/assets/5d4cdc2a-3df5-4165-9eea-f1d7c250ab53" />
+
+
+
+
+
 
 
 
