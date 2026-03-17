@@ -14,14 +14,7 @@ Tehtävä 2:
 
 Kirjautumistesti omalla verkkosivulle tehty ja kaikki toimii hyvin.
 
---
-Browser Demo
---
-Oman sivun kirjautumistesti                                           | PASS |
---
-Browser Demo                                                          | PASS |
-1 test, 1 passed, 0 failed
---
+<img width="725" height="193" alt="image" src="https://github.com/user-attachments/assets/4caaf36a-5fc4-4150-9d14-5284d93f1f27" />
 
 robot browser_demo.robot
 
