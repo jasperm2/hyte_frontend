@@ -23,4 +23,4 @@ dist-ssr
 *.sln
 *.sw?
 .venv
-playwright-log.txt
+tests/playwright-log.txt
