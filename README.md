@@ -1,3 +1,5 @@
+
+
 Sovellus on hyvinvointiin keskittyvä verkkosovellus, jonka avulla käyttäjä voi seurata omaa terveyttään ja hyvinvointiaan. Sovellus tarjoaa useita hyödyllisiä toimintoja, jotka auttavat käyttäjää tarkastelemaan omaa tilannettaan ja kirjaamaan hyvinvointiin liittyviä tietoja.
 
 Yksi sovelluksen keskeisistä ominaisuuksista on BMI-laskuri (painoindeksilaskuri). Käyttäjä voi syöttää oman pituutensa ja painonsa, minkä jälkeen sovellus laskee automaattisesti painoindeksin ja antaa tulokselle luokituksen, kuten alipaino, normaalipaino tai ylipaino. Tämä auttaa käyttäjää hahmottamaan omaa terveydentilaansa nopeasti.
