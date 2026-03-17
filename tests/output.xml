@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.2 (Python 3.14.0 on win32)" generated="2026-03-17T13:57:53.809251" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.2 (Python 3.14.0 on win32)" generated="2026-03-17T15:12:32.520101" rpa="false" schemaversion="5">
 <suite id="s1" name="Browser Demo" source="C:\Users\zipul\Desktop\hyte_frontend\tests\browser_demo.robot">
 <test id="s1-t1" name="Oman sivun kirjautumistesti" line="6">
 <kw name="New Browser" owner="Browser">
-<msg time="2026-03-17T13:57:54.285481" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\zipul\\Desktop\\hyte_frontend\\tests\\browser\\traces\\temp\\6e17340a-ba54-47cd-907d-44af42c83e7c"}</msg>
-<msg time="2026-03-17T13:57:54.342930" level="INFO">Starting Browser process C:\Users\zipul\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:49376</msg>
-<msg time="2026-03-17T13:57:57.136696" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\zipul\\Desktop\\hyte_frontend\\tests\\browser\\traces\\temp\\6e17340a-ba54-47cd-907d-44af42c83e7c"}</msg>
+<msg time="2026-03-17T15:12:33.371231" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\zipul\\Desktop\\hyte_frontend\\tests\\browser\\traces\\temp\\81d79488-642a-4fa5-8f60-f0e4d7baf4bc"}</msg>
+<msg time="2026-03-17T15:12:33.490319" level="INFO">Starting Browser process C:\Users\zipul\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:53766</msg>
+<msg time="2026-03-17T15:12:37.263102" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\zipul\\Desktop\\hyte_frontend\\tests\\browser\\traces\\temp\\81d79488-642a-4fa5-8f60-f0e4d7baf4bc"}</msg>
 <arg>chromium</arg>
 <arg>headless=No</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2026-03-17T13:57:54.284056" elapsed="2.853145"/>
+<status status="PASS" start="2026-03-17T15:12:33.368728" elapsed="3.894819"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2026-03-17T13:57:57.926094" level="INFO">Successfully initialized new page object and opened url: http://localhost:5173/login.html</msg>
-<msg time="2026-03-17T13:57:57.926233" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<msg time="2026-03-17T15:12:38.684452" level="INFO">Successfully initialized new page object and opened url: http://localhost:5173/login.html</msg>
+<msg time="2026-03-17T15:12:38.684597" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
 <arg>http://localhost:5173/login.html</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2026-03-17T13:57:57.140617" elapsed="0.785879"/>
+<status status="PASS" start="2026-03-17T15:12:37.264282" elapsed="1.420609"/>
 </kw>
 <kw name="Get Title" owner="Browser">
-<msg time="2026-03-17T13:57:57.941811" level="INFO">Title: 'MedCheck'</msg>
+<msg time="2026-03-17T15:12:38.746754" level="INFO">Title: 'MedCheck'</msg>
 <arg>==</arg>
 <arg>MedCheck</arg>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns the title of the current page.</doc>
-<status status="PASS" start="2026-03-17T13:57:57.927132" elapsed="0.014846"/>
+<status status="PASS" start="2026-03-17T15:12:38.685842" elapsed="0.061110"/>
 </kw>
 <kw name="Type Text" owner="Browser">
-<msg time="2026-03-17T13:57:57.944150" level="INFO">Types the text 'matti123' in the given field.</msg>
+<msg time="2026-03-17T15:12:38.749257" level="INFO">Types the text 'matti123' in the given field.</msg>
 <arg>[id="loginUsername"]</arg>
 <arg>${Username}</arg>
 <arg>delay=0.1 s</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2026-03-17T13:57:57.942548" elapsed="0.992101"/>
+<status status="PASS" start="2026-03-17T15:12:38.747592" elapsed="0.993077"/>
 </kw>
 <kw name="Type Secret" owner="Browser">
 <arg>[id="loginPassword"]</arg>
@@ -50,20 +50,20 @@
 <tag>Setter</tag>
 <doc>Types the given secret from ``variable_name`` into the text field
 found by ``selector``.</doc>
-<status status="PASS" start="2026-03-17T13:57:58.935620" elapsed="0.932721"/>
+<status status="PASS" start="2026-03-17T15:12:39.741593" elapsed="0.922212"/>
 </kw>
 <kw name="Click With Options" owner="Browser">
-<msg time="2026-03-17T13:57:59.871683" level="INFO">Clicks the element '[id="ksis"]'.</msg>
+<msg time="2026-03-17T15:12:40.665231" level="INFO">Clicks the element '[id="ksis"]'.</msg>
 <arg>[id="ksis"]</arg>
 <arg>delay=2 s</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-17T13:57:59.869627" elapsed="2.090243"/>
+<status status="PASS" start="2026-03-17T15:12:40.664353" elapsed="2.135331"/>
 </kw>
-<status status="PASS" start="2026-03-17T13:57:54.282513" elapsed="7.678479"/>
+<status status="PASS" start="2026-03-17T15:12:33.366723" elapsed="9.433889"/>
 </test>
-<status status="PASS" start="2026-03-17T13:57:53.812219" elapsed="8.160640"/>
+<status status="PASS" start="2026-03-17T15:12:32.523726" elapsed="10.286199"/>
 </suite>
 <statistics>
 <total>
