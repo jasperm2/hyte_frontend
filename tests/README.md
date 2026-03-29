@@ -28,6 +28,9 @@ robot browser_demo.robot
 
 Tehtävä 3:
 
+// teht3_keywords.robot
+// tehtava3.robot
+
 Tehtävä 4:
 
 Tehtävä 5:
