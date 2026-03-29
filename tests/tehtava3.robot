@@ -7,10 +7,10 @@ Test Diverse Web Form Fields
     New Browser    chromium    headless=No
     New Page       https://www.selenium.dev/selenium/web/web-form.html
 
-    # 1. Dropdown (Select) - Valitaan tekstillä
+    # 1. Dropdown - Valitaan tekstillä
     Select Options By    [name="my-select"]    text    Two
 
-    # 2. Dropdown (Datalist) - Kirjoitetaan ja valitaan
+    # 2. Dropdown - Kirjoitetaan ja valitaan
     Fill Text      [name="my-datalist"]    New York
 
     # 3. Checkboxit - Valitaan ja varmistetaan tila
@@ -23,7 +23,7 @@ Test Diverse Web Form Fields
 
     # 5. File Input - Tiedoston lataaminen
     # Huom: Tiedoston pitää olla olemassa samassa kansiossa tai polku oikein
-    Upload File By Selector    [name="my-file"]    Keywords.robot
+    Upload File By Selector    [name="my-file"]    teht3_keywords.robot
 
     # 6. Color Picker & Date Picker (Esimerkkejä kirjoittamisesta)
     Fill Text      [name="my-colors"]    #ffffff
